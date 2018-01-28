@@ -10,7 +10,7 @@
 
     <EditText
         android:id="@+id/tv_username"
-        android:text="username"
+        tools:text="username"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
@@ -20,8 +20,15 @@
         android:id="@+id/tv_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="password"
+        tools:text="password"
         />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/iv_gambar"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
 
 
 </LinearLayout>
